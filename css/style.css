@@ -1,3 +1,5 @@
+/* Body settings */
+
 :root{
     --pink:#FF6699;
     --green:#16FFBD;
@@ -23,10 +25,14 @@ body{
 
 }
 
+
+/* First Page */
+
 #intro{
     width: 90%;
     margin: auto;
     margin-top: 88px;
+    height: 1vh;
 }
 
 
@@ -51,6 +57,9 @@ body{
     color: var(--pink);
 }
 
+#introHeader{
+    margin-bottom: 40px;
+}
 
 
 #introTxt{
@@ -64,7 +73,7 @@ body{
 #introSklls{
     width: 100%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #introSklls h2{
@@ -96,3 +105,4 @@ body{
     float: right;
 }
 
+/* Second Page*/
