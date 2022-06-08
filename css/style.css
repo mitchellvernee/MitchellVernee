@@ -1,0 +1,63 @@
+:root{
+    --pink:#FF6699;
+    --green:#16FFBD;
+    --black:#0D0916;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(Manrope[wght].woff2);
+}
+
+body{
+    font-family: Manrope;
+    background-color: var(--green);
+
+}
+
+#intro{
+    width: 90%;
+    margin: auto;
+    margin-top: 88px;
+}
+
+
+#introHeader h5{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5em;
+    padding-left: 5px;
+    border: 1px solid;
+    color: var(--pink);
+
+}
+
+#introHeader h1{
+    text-align: right;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-right: 5px;
+    border: 1px solid;
+    margin-top: -1px;
+    color: var(--pink);
+}
+
+.introPlus{
+    width: 80%;
+    margin: auto;
+}
+
+#introTxt{
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
