@@ -51,10 +51,7 @@ body{
     color: var(--pink);
 }
 
-.introPlus{
-    width: 80%;
-    margin: auto;
-}
+
 
 #introTxt{
     width: 75%;
@@ -80,3 +77,22 @@ body{
     padding-left: 10px;
     margin-top: 5px;
 }
+
+.introPlus{
+    width: 80%;
+    margin: auto;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.plusRight{
+    float: right;
+}
+.squareRight{
+    background-color: var(--pink);
+    width: 10px;
+    height: 10px;
+    float: right;
+}
+
