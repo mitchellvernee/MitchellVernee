@@ -17,6 +17,7 @@
 @font-face {
     font-family: Manrope;
     src: url(Manrope[wght].woff2);
+    font-family: 'Pirata One', cursive;
 }
 
 body{
@@ -118,6 +119,27 @@ body{
     margin-right: 10px;
 }
 
+#introSkull{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#introSkull p{
+    font-family: 'Pirata One', cursive;
+    font-size: 24px;
+}
+
+#introSkull img{
+    width: 20%;
+}
+
+#introSkull div{
+    height: 1px;
+    background-color: var(--pink);
+    width: 100px;
+}
 /* Second Page*/
 
 h3{
