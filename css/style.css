@@ -22,12 +22,18 @@
 body{
     font-family: Manrope;
     background-color: var(--green);
-    scroll-snap-type: y proximity;
+
 }
 
 
-section{
+.container {
+    scroll-snap-type: y mandatory;
+
+  }
+  
+.child {
     scroll-snap-align: start;
+    height:700px;
 }
 
     
