@@ -25,7 +25,9 @@ body{
 
 }
 
-
+section{
+    scroll-snap-type: y proximity;
+}
 /* First Page */
 
 #intro{
@@ -119,6 +121,7 @@ h3{
     color: var(--black);
     z-index: 2;
     color: var(--green);
+
 }
 
 #earlyLifeHeader{
