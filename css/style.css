@@ -122,13 +122,17 @@ body{
 #introSkull{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 25px;
+    justify-content: space-between;  
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
 }
 
 #introSkull p{
     font-family: 'Pirata One', cursive;
     font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.15em;
 }
 
 #introSkull img{
@@ -188,4 +192,5 @@ h3{
     margin: auto;
     position: relative;
     top: -30px;
+
 }
