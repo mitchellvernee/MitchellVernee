@@ -22,12 +22,15 @@
 body{
     font-family: Manrope;
     background-color: var(--green);
-
-}
-
-section{
     scroll-snap-type: y proximity;
 }
+
+
+section{
+    scroll-snap-align: start;
+}
+
+    
 /* First Page */
 
 #intro{
