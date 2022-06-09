@@ -26,17 +26,6 @@ body{
 }
 
 
-.container {
-    scroll-snap-type: y mandatory;
-
-  }
-  
-.child {
-    scroll-snap-align: start;
-    height:700px;
-}
-
-    
 /* First Page */
 
 #intro{
@@ -130,7 +119,7 @@ h3{
     color: var(--black);
     z-index: 2;
     color: var(--green);
-
+    transform: rotate(180deg);
 }
 
 #earlyLifeHeader{
@@ -149,10 +138,9 @@ h3{
 }
 
 #earlyLifeMusic p{
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
     background-color: var(--green);
 }
 
