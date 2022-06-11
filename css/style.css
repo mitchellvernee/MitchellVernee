@@ -147,7 +147,7 @@ body{
 /* Second Page*/
 
 h3{
-    font-size: 85px;
+    font-size: 18vw;
     font-weight: 800;
     text-transform: uppercase;
     writing-mode: vertical-rl;
@@ -164,17 +164,33 @@ h3{
     padding-top: 20px;
 }
 
+#earlyLifeHeader img{
+    object-fit:cover;
+    height: 250px;
+    float: right;
+}
+
 #earlyLifeMusic{
-    background-color: var(--pink);
+    display: flex;
     float: right;
     text-align: justify;
     text-justify: inter-word;
+    flex-direction: column;
 
 }
 
 #earlyLifeMusic p{
     padding: 10px;
+    padding-right: 82px;
+    padding-left: 20px;
     background-color: var(--green);
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+#earlyLifeGraphicDesign{
+    margin-top: 40px;
 }
 
 #earlyLifeGraphicDesign img{
@@ -192,5 +208,44 @@ h3{
     margin: auto;
     position: relative;
     top: -30px;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+#intro ,#earlyLife{
+    width: 60%;
+    margin: auto;
+
+}
+
+#earlyLife{
+    width: 50%;
+    margin: auto;
+}
+#earlyLifeMusic img{
+
+
+  width: 90%;
+  margin-left: 7%;
+
+}
+
+#earlyLifeMusic p{
+
+
+}
+
+#earlyLifeGraphicDesign img{
+    width: 60%;
+
+}
+
+h3{
+    font-size: 12vh;
+
+
+}
+
 
 }
