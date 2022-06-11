@@ -148,15 +148,15 @@ body{
 
 
 h3{
-    font-size: 19vw;
+    font-size: 100px;
     font-weight: 800;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     z-index: 2;
     color: var(--green);
     transform: rotate(180deg);
-    letter-spacing: 0.15em;
-
+    letter-spacing: 0.05em;
+   
     
 
 }
@@ -166,7 +166,7 @@ h3{
     background-color: var(--pink); 
     margin-top: 50px;
     padding-top: 20px;
-    height: 550px;
+    height: 600px;
 
 }
 
