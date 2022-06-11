@@ -155,6 +155,7 @@ h3{
     z-index: 2;
     color: var(--green);
     transform: rotate(180deg);
+    letter-spacing: 0.15em;
 
     
 
@@ -182,7 +183,6 @@ h3{
 
 #earlyLifeMusic{
     display: flex;
-
     text-align: justify;
     text-justify: inter-word;
     flex-direction: column;
@@ -192,13 +192,8 @@ h3{
 #earlyLifeMusic p{
     padding: 20px;
     background-color: var(--green);
-
     position: relative;
-    
     top: -20px;
-
-
-
 }
 
 #earlyLifeGraphicDesign{
