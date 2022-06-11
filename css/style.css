@@ -171,11 +171,11 @@ h3{
 
 #earlyLifeHeader img{
     object-fit:cover;
-    height: 270px;
+    height: 260px;
     float: right;
     overflow: hidden;
     max-width: 100%;
-    height: auto;
+    height: 250px
 }
 
 #earlyLifeMusic{
@@ -193,7 +193,7 @@ h3{
     position: relative;
     left: 20px;
     top: -20px;
-    width: 250px;
+    width: 90%;
 
 
 }
