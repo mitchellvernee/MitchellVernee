@@ -152,12 +152,15 @@ h3{
     font-weight: 800;
     text-transform: uppercase;
     writing-mode: vertical-rl;
-
+    text-align: justify;
+    text-justify: inter-word;
     z-index: 2;
     color: var(--green);
     transform: rotate(180deg);
     position: relative;
-    top:-70px;
+    margin: auto;
+    padding-left: 10px;
+
 }
 
 #earlyLifeHeader{
