@@ -80,9 +80,14 @@ body{
     margin: auto;
     text-align: justify;
     text-justify: inter-word;
+ overflow: hidden;
 
 }
 
+p{
+ overflow: hidden;
+ width: 90%;
+}
 #introSklls{
     width: 100%;
     margin: auto;
