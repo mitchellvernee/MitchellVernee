@@ -111,9 +111,9 @@ p{
 
 }
 
-@-webkit-keyframes leftAnimation {
-    0% {-webkit-transform: translateX(-100%); opacity: 0; color: var(--pink);}
-    99% {-webkit-transform: translateX(0%); opacity: 1; color: var(--pink);}
+@keyframes leftAnimation {
+    0% {transform: translateX(-100%); opacity: 0; color: var(--pink);}
+    99% {transform: translateX(0%); opacity: 1; color: var(--pink);}
     100% {color: var(--green);}
 }
 
