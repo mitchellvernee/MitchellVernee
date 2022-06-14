@@ -10,8 +10,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-   
+  
 }
 
 @font-face {
@@ -23,15 +22,18 @@
 body{
     font-family: Manrope;
     background-color: var(--green);
-
 }
 
-.container{
-    scroll-snap-type: y proximity;
+
+
+p{
+    animation-name: text;
+    animation-duration: 1s;
 }
 
-.child{
-    scroll-snap-align: center;
+@keyframes text {
+    0% {transform: translateY(100%); opacity: 0;}
+    100% {transform: translateY(0%); opacity: 1;}
 }
 
 
@@ -42,8 +44,11 @@ body{
     width: 90%;
     margin: auto;
     margin-top: 88px;
+    height: 800px;
+    overflow: hidden;
 
 }
+
 
 
 #introHeader h5{
@@ -57,6 +62,9 @@ body{
     color: var(--pink);
 
 }
+
+
+
 
 #introHeader h1{
     text-align: right;
@@ -98,7 +106,56 @@ body{
     font-size: 30px;
     padding-left: 10px;
     margin-top: 5px;
+
+
+
 }
+
+
+@keyframes leftAnimation {
+    0% {transform: translateX(-100%); opacity: 0; color: var(--pink);}
+    99% {transform: translateX(0%); opacity: 1; color: var(--pink);}
+    100% {color: var(--green);}
+}
+
+#introSklls h2:nth-child(1){
+    animation-name: leftAnimation;
+    animation-duration: 800ms;
+    animation-fill-mode: backwards;
+    animation-delay: 500ms;
+
+}
+
+
+@keyframes rightAnimation {
+    0% {transform: translateX(100%); opacity: 0;}
+    100% {transform: translateX(0%); opacity: 1;}
+}
+
+#introSklls h2:nth-child(2){
+    animation-name: rightAnimation;
+    animation-duration: 800ms;
+    animation-fill-mode: backwards;
+    animation-delay: 700ms;
+
+}
+
+
+@keyframes upAnimation {
+    0% {transform: translateY(100%); opacity: 0; color: var(--pink);}
+    80% {transform: translateY(0%); opacity: 1; color: var(--pink);}
+    100% {color: var(--green);}
+}
+
+#introSklls h2:nth-child(3){
+    animation-name: upAnimation;
+    animation-duration: 500ms;
+    animation-fill-mode: backwards;
+    animation-delay: 1200ms;
+
+}
+
+
 
 .introPlus{
     width: 90%;
@@ -146,6 +203,11 @@ body{
 }
 /* Second Page*/
 
+#earlyLife{
+    height: 1100px;
+    overflow: hidden;
+
+}
 
 h3{
     font-size: 100px;
