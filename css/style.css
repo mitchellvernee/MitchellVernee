@@ -307,6 +307,7 @@ p{
     text-align: justify;
     text-justify: inter-word;
     padding-top: 20px;
+    text-align: center;
 }
 
 
@@ -317,12 +318,36 @@ p{
 }
 
 #present h3{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 800;
     text-transform: uppercase;
     z-index: 2;
     color: var(--green);
     text-align: center;
     letter-spacing: 0.05em;
+}
+
+#present img{
+    display: block;
+    width: 90%;
+    background-color: black;
+    height: 300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#present p{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#present hr{
+    width: 30%;
+    margin: auto;
+    color: var(--green);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
