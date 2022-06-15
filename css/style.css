@@ -314,7 +314,8 @@ p{
 /* present page*/
 #present{
     height:100%;
-    background-color: #FF6699;
+    background-color: var(--green);
+
 }
 
 #present h3{
@@ -325,12 +326,14 @@ p{
     color: var(--green);
     text-align: center;
     letter-spacing: 0.05em;
+    background-color: var(--pink);
+    margin-bottom: 20px;
 }
 
 #present img{
     display: block;
     width: 90%;
-    background-color: black;
+    background-color: var(--black);
     height: 300px;
     margin-left:auto;
     margin-right: auto;
@@ -341,6 +344,7 @@ p{
     width: 90%;
     text-align: center;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 #present hr{
@@ -351,3 +355,67 @@ p{
     margin-bottom: 20px;
 }
 
+#present a{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: 800; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--pink) ;
+    padding-left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+#presentContent {
+    margin-top: 100px;
+
+}
+
+#marketing{
+    background-color: var(--pink);
+}
+
+#sectionHeader{
+    font-style: initial;
+    font-size: 40px;
+    font-family: 'Pirata One', cursive;
+    margin: auto;
+    text-align: center;
+    color: var(--green);
+    background-color: var(--black);
+    width: 90%;
+    letter-spacing: 0.15em;
+    margin-top: 10px;
+
+}
+
+#headerImg{
+    width: 100%;
+    height: 250px;
+    background-color: var(--black);
+}
+
+#presentContent p{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#marketingimg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#marketingImg img{
+    width: 49%;
+    background-color: var(--black);
+    height:100px;
+}
