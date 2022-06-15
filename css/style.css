@@ -245,10 +245,14 @@ p{
     font-size: 90px;
     font-weight: 800;
     text-transform: uppercase;
-    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
     z-index: 2;
     color: var(--green);
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
     letter-spacing: 0.05em;
     text-align: right;
 }
@@ -256,6 +260,8 @@ p{
 
 
 #earlyLifeHeader{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-color: var(--pink); 
     margin-top: 50px;
@@ -265,7 +271,8 @@ p{
 
 
 #earlyLifeHeader img{
-    object-fit:cover;
+    -o-object-fit:cover;
+       object-fit:cover;
     width: 100%;
     height: 250px;
 
@@ -288,7 +295,8 @@ p{
 
 #earlyLifeGraphicDesign img{
     margin: auto;
-    object-fit:cover;
+    -o-object-fit:cover;
+       object-fit:cover;
     display: block;
     width: 100%;
 
@@ -302,7 +310,6 @@ p{
     padding-top: 20px;
     text-align: center;
 }
-
 
 /* present page*/
 #present{
