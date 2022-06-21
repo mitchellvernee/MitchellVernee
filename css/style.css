@@ -39,6 +39,7 @@ body{
 p{
     animation-name: text;
     animation-duration: 1s;
+    font-size: 18px;
 }
 
 @keyframes text {
@@ -232,6 +233,7 @@ p{
     background-color: var(--pink);
     width: 100px;
 }
+
 /* Second Page*/
 
 #earlyLife{
@@ -242,7 +244,7 @@ p{
 }
 
 #earlyLife h3{
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 800;
     text-transform: uppercase;
     -webkit-writing-mode: vertical-rl;
@@ -253,7 +255,7 @@ p{
     -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.15em;
     text-align: right;
 }
 
@@ -299,7 +301,9 @@ p{
        object-fit:cover;
     display: block;
     width: 100%;
-
+    max-width: 493px ;
+    position: relative;
+    top: -30px;
 }
 
 #earlyLifeGraphicDesign p{
@@ -307,8 +311,7 @@ p{
     margin:auto;
     text-align: justify;
     text-justify: inter-word;
-    padding-top: 20px;
-    text-align: center;
+
 }
 
 /* present page*/
@@ -342,7 +345,7 @@ p{
 
 #present p{
     width: 90%;
-    text-align: center;
+
     margin: auto;
     margin-bottom: 20px;
 }
