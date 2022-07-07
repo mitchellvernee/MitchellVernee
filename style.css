@@ -11,7 +11,7 @@
  }
 
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 @font-face {
@@ -156,6 +156,12 @@ button p{
     padding-left: 10px;
     margin-bottom: 2px;
     color: var(--green);
+    height: 80px;
+    
+}
+
+#container-skill{
+    padding-bottom: 50px;
 }
 
 /* Section early life */
