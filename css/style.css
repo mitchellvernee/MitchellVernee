@@ -40,6 +40,8 @@ p{
     animation-name: text;
     animation-duration: 1s;
     font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @keyframes text {
@@ -360,18 +362,31 @@ p{
 
 #present a{
     width: 100%;
-    display:flex;
-    flex-direction:row;
+    display: flex;
     margin-top: 5px;
+    background-color: var(--pink);
+    text-decoration: none;
+    color: inherit;
+}
+
+#present h4, i{
+
+}
+
+#present h4{
     font-size: 32px;
     font-weight: 800; 
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--pink) ;
     padding-left: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    color: inherit;
+
+}
+
+#present i{
+    font-size: 46px;
+    background-color: aliceblue;
+    margin-left: auto;
+    
 }
 
 #presentContent {
@@ -394,6 +409,7 @@ p{
     width: 90%;
     letter-spacing: 0.15em;
     margin-top: 10px;
+    text-transform: uppercase;
 
 }
 
@@ -401,6 +417,7 @@ p{
     width: 100%;
     height: 250px;
     background-color: var(--black);
+    object-fit:cover;
 }
 
 #presentContent p{
@@ -415,6 +432,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    object-fit:cover;
 }
 
 #marketingImg img{
