@@ -68,7 +68,7 @@ nav{
     transition: transform 0.5s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+
     z-index: 2;
 }
 
