@@ -127,7 +127,7 @@ button p{
 }
 
 #intro h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 100%;
     word-wrap: break-word;
     font-weight: 900;
@@ -151,7 +151,7 @@ button p{
     padding: 10px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 2.1rem;
+    font-size: 2.0rem;
     padding-left: 10px;
     margin-bottom: 10px;
     color: var(--green);
