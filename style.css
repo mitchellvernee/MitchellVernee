@@ -8,6 +8,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    outline: 1px solid red !important;
  }
 
 html {
@@ -34,10 +35,11 @@ body{
 }
 
 p{
-    font-size: 18px;
+    font-size: 1rem;
     text-align: justify;
     text-justify: inter-word;
-    padding: 30px 20px 20px 30px;
+    padding: 10px;
+    margin: auto;
 
 }
 
@@ -61,12 +63,12 @@ nav{
     color: aliceblue;
     overflow: hidden;
     text-align: center;
-    font-size: 5vw;   
-    transform: translate3d(-100vw, 0 , 0);
+    font-size: 2rem;   
+    transform: translate3d(100vw, 0 , 0);
     transition: transform 0.5s ease;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-around;
     z-index: 2;
 }
 
@@ -85,14 +87,14 @@ nav.show{
     display: inline-block;    
     transition-duration: 0.4s;
     cursor: pointer;
-    float: right;
+    right: 10px;
     width: 50px;
     height: 50px;
     margin-right: 10px;
     margin-top: 10px;
     z-index: 1;
     position: fixed;
-    right: 0;
+
 }
 
 .button:hover {
@@ -121,13 +123,15 @@ button p{
     background-color: var(--green);
     height: 100vh;
     scroll-snap-align: start;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+   
 }
 
 #intro h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 100%;
     word-wrap: break-word;
     font-weight: 900;
@@ -139,9 +143,6 @@ button p{
 }
 
 
-#intro p{
-    margin: auto;
-}
 
 
 #intro h3{
@@ -151,16 +152,16 @@ button p{
     padding: 10px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     padding-left: 10px;
     margin-bottom: 10px;
     color: var(--green);
-    padding:15px 0px 15px 15px;
+    padding:5px 0px 5px 10px;
     
 }
 
 #container-skill{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 /* Section early life */
@@ -177,12 +178,12 @@ button p{
 }
 
 #early-life h1{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: var(--green);
     text-transform: uppercase;
     line-height: 80px;
-    width: 300px;
-    margin-left: 10px;
+
+    padding-left: 10px;
 }
 
 #band-img{
@@ -193,12 +194,6 @@ button p{
     height: 300px;
 
 
-}
-
-#early-life p{
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 #container-graphic{
@@ -226,11 +221,11 @@ button p{
 }
 
 #container-me h1{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: var(--green);
     text-transform: uppercase;
     line-height: 80px;
-    width: 400px;
+
     margin-left: 10px;
 }
 
@@ -243,9 +238,3 @@ button p{
     z-index: -1;
 }
 
-#the-present p{
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
