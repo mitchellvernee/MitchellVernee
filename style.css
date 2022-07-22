@@ -137,7 +137,7 @@ button p{
     word-wrap: break-word;
     font-weight: 900;
     text-transform: uppercase;
-    text-align: right;
+
     background-color: var(--pink);
     padding: 10px;
     padding: auto;
@@ -156,7 +156,7 @@ button p{
     font-size: 1.3rem;
     letter-spacing: 3px;
     margin-bottom: 4px;
-    color: var(--green);
+    color: var(--black);
     padding:5px 0px 5px 10px;
     
 }
@@ -189,12 +189,12 @@ button p{
 
 #band-img{
     width: 100%;
-    object-fit: cover;
-    z-index: -1;
-    position: relative;
-    height: 300px;
-
-
+    max-width: 493px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover; 
+    height: 193px;
 }
 
 #container-graphic{
@@ -239,3 +239,96 @@ button p{
     z-index: -1;
 }
 
+@media only screen and (min-width: 1200px) {
+
+
+    #intro{
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+    
+    #intro h1{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 100px;
+    }
+    #intro p{
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px
+    }
+    
+    #intro h3{
+        width: 50%;
+        font-size: 50px;
+    }
+
+    #early-life {
+        height: 100vh;
+    }
+
+    #band, #graphic{
+        width: 60%;
+        margin: auto;
+        background-color: var(--green);
+        padding: 40px;
+        height: 600px;
+
+
+    }
+    #containerearly{
+        display: flex;
+        flex-direction: row;
+    }
+    #containerearly p{
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 40px;
+    }
+
+    #container-band{
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #graphic{
+        margin-top: 100px;
+    }
+    #band{
+        margin-top: 100px;
+    
+    }
+    #band img{
+        width: 100%;
+        max-width: 493px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover; 
+        height: 193px;
+        width: 493px; 
+        margin-top: 50px; 
+    }
+
+    #graphic img{
+        margin-top: 50px; 
+    }
+    #early-life h1{
+        font-size: 150px;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 40px;
+        font-weight: 800;
+    }
+
+    #the-present{
+        height: 100vh;
+    }
+}   
